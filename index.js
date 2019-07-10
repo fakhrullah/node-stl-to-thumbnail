@@ -124,7 +124,7 @@ StlThumbnailer.prototype.processThumbnail = function(thumbnailSpec){
                     if (tag === "img") {
                         return new Canvas.Image();
                     } else if (tag === "canvas") {
-                        return new Canvas(width, height);
+                        return new Canvas.createCanvas(width, height);
                     }
                 },
                 createElementNS: function(namespace,tag){
