@@ -2,7 +2,7 @@
 
 Create thumbnail from 3D STL file. Creates beautifully rendered png and jpeg output server-side with no GPU from ASCII and Binary STL's.
 
-> This code is forked from [`node-stl-to-thumbnail`](https://www.npmjs.com/package/node-stl-to-thumbnail) by instructables but I cannot found it in Github anymore.
+> This code is forked from [`node-stl-thumbnailer`](https://www.npmjs.com/package/node-stl-thumbnailer) by instructables but I cannot found it in Github anymore.
 
 ## Installation
 ```npm install --save node-stl-to-thumbnail```
